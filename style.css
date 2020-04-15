@@ -2,6 +2,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  color: inherit;
+  }
+
+a:hover { color: inherit; }
+
 h5 {
   font-size: 25px;
 }
@@ -78,9 +84,8 @@ h5 {
   margin-bottom: 8px;
 }
 
-
-
 .card:hover {
   cursor: pointer;
   filter: blur(5px);
+  transition: 0.3s ease-in-out;
 }

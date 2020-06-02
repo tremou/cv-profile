@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <title>OG | Full-Stack Developper</title>
   <meta name="description" content="Full-stack junior web developper, web designer, skilled in HTML, CSS, Javascript, Ruby, Rails, SQL, Github, Heroku and more.">
@@ -31,99 +32,110 @@
 <body>
 
   <div class="banner">
-    <div class="container">
-      <div id="nav-bar"></div>
+    <div class="background-gradient">
+      <video autoplay muted loop id="myVideo">
+        <source src="images/Background_Loop.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="content">
       <div class="presentation">
         <img src="images/avatar.jpg" id="avatar">
         <h1 id="place-title">Olivier Girardot</h1>
         <h3 id="text-white">Junior Full-Stack Web Developper</h3>
+        <section id="section01" class="demo">
+          <a href="#section02"><span></span></a>
+        </section>
       </div>
     </div>
   </div>
 
-  <div class="language-bar">
-    <div class="mt-3">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="container d-flex justify-content-between">
-            <img src="images/icons/html.png" class="icons">
-            <img src="images/icons/css.png" class="icons">
-            <img src="images/icons/js.png" class="icons">
-            <img src="images/icons/sql.png" class="icons">
-            <img src="images/icons/ruby2.png" class="icons">
-            <img src="images/icons/rails.png" class="icons">
+  <div id="section02">
+    <div class="language-bar">
+      <div class="mt-3">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="container d-flex justify-content-between">
+              <img src="images/icons/html.png" class="icons">
+              <img src="images/icons/css.png" class="icons">
+              <img src="images/icons/js.png" class="icons">
+              <img src="images/icons/sql.png" class="icons">
+              <img src="images/icons/ruby2.png" class="icons">
+              <img src="images/icons/rails.png" class="icons">
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="websites">
+      <div class="container justify-content-between">
+        <div class="row">
+
+          <a href="http://www.jamin.today" target="_blank">
+            <div class="col-lg-6 col-sm-12">
+              <div class="card">
+                <img class="card-img-top" src="images/ogimage.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Jamin</h5>
+                  <p class="card-text">Final project for the Lewagon 9 week intensive Full-stack Web Design bootcamp. In a team of 4, we created this
+                  social application, offering musicians to organize or to join music jam sessions.</p>
+                </div>
+                <div class="language-bar-small">
+                  <img src="images/icons/html.png" class="icons-small">
+                  <img src="images/icons/css.png" class="icons-small">
+                  <img src="images/icons/js.png" class="icons-small">
+                  <img src="images/icons/sql.png" class="icons-small">
+                  <img src="images/icons/ruby2.png" class="icons-small">
+                  <img src="images/icons/rails.png" class="icons-small">
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.ogmusik.com" target="_blank">
+            <div class="col-lg-6 col-sm-12">
+              <div class="card">
+                  <img class="card-img-top" src="images/ogmusik.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">OG Musik</h5>
+                  <p class="card-text">Simple but efficient website to showcase the work of a professional music composer and sound designer.</p>
+                <br>
+                </div>
+                <div class="language-bar-small">
+                  <img src="images/icons/html.png" class="icons-small">
+                  <img src="images/icons/css.png" class="icons-small">
+                </div>
+              </div>
+            </div>
+            <div class="img-circle hidden">hello</div>
+          </a>
+
+          <a href="http://www.ogsoundfx.com" target="_blank">
+            <div class="col-lg-6 col-sm-12">
+              <div class="card">
+                <img class="card-img-top" src="images/ogsoundfx.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">OG Sound Effects</h5>
+                  <p class="card-text">Online shop selling downloadable sound effects for films and video games. This website was create with woocommerce and deals with
+                   all the aspects of online payment.</p>
+                <br>
+                </div>
+                <div class="language-bar-small">
+                  <img src="images/icons/html.png" class="icons-small">
+                  <img src="images/icons/css.png" class="icons-small">
+                  <img src="images/icons/js.png" class="icons-small">
+                </div>
+              </div>
+            </div>
+          </a>
+
         </div>
       </div>
     </div>
   </div>
 
-  <div class="websites">
-    <div class="container justify-content-between">
-      <div class="row">
-
-        <a href="http://www.jamin.today" target="_blank">
-          <div class="col-lg-6 col-sm-12">
-            <div class="card">
-              <img class="card-img-top" src="images/ogimage.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jamin</h5>
-                <p class="card-text">Final project for the Lewagon 9 week intensive Full-stack Web Design bootcamp. In a team of 4, we created this
-                social application, offering musicians to organize or to join music jam sessions.</p>
-              </div>
-              <div class="language-bar-small">
-                <img src="images/icons/html.png" class="icons-small">
-                <img src="images/icons/css.png" class="icons-small">
-                <img src="images/icons/js.png" class="icons-small">
-                <img src="images/icons/sql.png" class="icons-small">
-                <img src="images/icons/ruby2.png" class="icons-small">
-                <img src="images/icons/rails.png" class="icons-small">
-              </div>
-            </div>
-          </div>
-        </a>
-
-        <a href="http://www.ogmusik.com" target="_blank">
-          <div class="col-lg-6 col-sm-12">
-            <div class="card">
-                <img class="card-img-top" src="images/ogmusik.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">OG Musik</h5>
-                <p class="card-text">Simple but efficient website to showcase the work of a professional music composer and sound designer.</p>
-              <br>
-              </div>
-              <div class="language-bar-small">
-                <img src="images/icons/html.png" class="icons-small">
-                <img src="images/icons/css.png" class="icons-small">
-              </div>
-            </div>
-          </div>
-          <div class="img-circle hidden">hello</div>
-        </a>
-
-        <a href="http://www.ogsoundfx.com" target="_blank">
-          <div class="col-lg-6 col-sm-12">
-            <div class="card">
-              <img class="card-img-top" src="images/ogsoundfx.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">OG Sound Effects</h5>
-                <p class="card-text">Online shop selling downloadable sound effects for films and video games. This website was create with woocommerce and deals with
-                 all the aspects of online payment.</p>
-              <br>
-              </div>
-              <div class="language-bar-small">
-                <img src="images/icons/html.png" class="icons-small">
-                <img src="images/icons/css.png" class="icons-small">
-                <img src="images/icons/js.png" class="icons-small">
-              </div>
-            </div>
-          </div>
-        </a>
-
-
-      </div>
-     </div>
-  </div>
 <script src="javascript.js"></script>
+
 </body>
 </html>

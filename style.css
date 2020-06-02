@@ -12,6 +12,10 @@ h5 {
   font-size: 25px;
 }
 
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('images/computer-1209641_1920.jpg');
+}
+
 .presentation{
   text-align: center;
   padding: 110px 0px;

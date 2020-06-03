@@ -3,6 +3,11 @@
   font-weight: 300;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
   background-color: #f0f0f0;
 }
@@ -54,6 +59,10 @@ html {
    -webkit-animation-delay: .3s;
    animation-delay: .3s;
  }
+
+/* #section01, #section02, #section03, #section04 {
+  min-height: 85%;
+ }*/
 
  #section02 a span {
    position: absolute;
@@ -116,6 +125,7 @@ html {
 .banner {
   position: relative;
 }
+
 
 #myVideo {
   position: relative;

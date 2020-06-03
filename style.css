@@ -1,6 +1,10 @@
 * {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+}
+
+body {
+  background-color: #f0f0f0;
 }
 
 a {
@@ -27,8 +31,8 @@ html {
    width: 24px;
    height: 24px;
    margin-left: -12px;
-   border-left: 1px solid #fff;
-   border-bottom: 1px solid #fff;
+   border-left: 4px solid #fff;
+   border-bottom: 4px solid #fff;
    -webkit-transform: rotate(-45deg);
    transform: rotate(-45deg);
    -webkit-animation: sdb07 2s infinite;
@@ -46,6 +50,37 @@ html {
    animation-delay: .15s;
  }
  #section01 a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+
+ #section02 a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section02 a span:nth-of-type(1) {
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+ #section02 a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section02 a span:nth-of-type(3) {
    bottom: -32px;
    -webkit-animation-delay: .3s;
    animation-delay: .3s;
@@ -74,19 +109,6 @@ html {
   }
 }
 
-/*#section01 a span {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}*/
 /*.banner {
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('images/computer-1209641_1920.jpg');
 }*/
@@ -105,6 +127,7 @@ html {
 }
 
 .content {
+  letter-spacing: 10px;
   position: absolute;
   z-index:1;
   top: 130px;
@@ -123,70 +146,128 @@ html {
 #place-title {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 6em;
+  /*font-size: 6em;*/
+  font-size:6vw;
 }
 
 #text-white {
   color: white;
-  font-size: 2.4em;
-  font-weight: 300;
+  font-size: 2vw;
+  font-weight: 400;
 }
 
 #avatar {
   border: 3px solid #286fac;
-  width: 200px;
-  height: 200px;
+/*  width: 200px;
+  height: 200px;*/
+  width: 13vw;
+  height: 13vw;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .icons {
-  width: 80px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  filter: grayscale(100%);
+  width: 3vw;
   border-radius: 4%;
   margin: 15px 15px 0px 15px;
 }
 
 .icons-small {
+  filter: grayscale(100%);
   width: 20px;
   border-radius: 4%;
   margin: 5px 5px 0px 5px;
 }
 
 .language-bar {
-  margin: 5px;
+  margin-top: 20px;
   text-align: center;
 }
 
+.language-bar h1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: #6d6d6d;
+}
+
 .language-bar-small {
+  position: absolute;
+  bottom: 30px;
   text-align: left;
   margin-left: 5px;
 }
 
+.skill-text-box {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.skill-text-title{
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.skill-text-content {
+  text-align: justify;
+  font-size: 20px;
+}
+
 .websites {
   margin-top: 60px;
+  text-align: center;
+}
+
+.websites h1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: #6d6d6d;
+  margin-bottom: 20px;
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio h1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: #6d6d6d;
+  margin-bottom: 20px;
 }
 
 .card {
   background-color: white;
   width: 100%;
-  height: 450px;
+  height: 500px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
 .card-img-top {
+  padding: 40px 40px 10px 40px ;
   max-width:100%;
   max-height:100%;
 }
 
 .card-title {
   margin-left: 10px;
+  font-size: 25px;
 }
 
 .card-text {
-  margin-left: 10px;
-  margin-bottom: 8px;
+  margin: 0px 20px 8px 20px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .card:hover {

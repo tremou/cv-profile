@@ -178,6 +178,20 @@ html {
   height: 100%;
 }
 
+.skill-list {
+  margin-bottom: 15px;
+}
+
+.skill-list span {
+  padding: 5px 15px;
+  border: solid #286fac 1px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 0.5vw;
+  color: #6d6d6d;
+}
+
 .content {
   letter-spacing: 10px;
   position: absolute;
@@ -324,6 +338,10 @@ html {
   transition: visibility 0s linear 300ms, opacity 0s;
 }
 
+#wrapper:hover .card-img-top {
+  filter: blur(5px);
+}
+
 #wrapper .pop-up {
   position: absolute;
   background-color: white;
@@ -332,6 +350,9 @@ html {
   transform: translate(-50%, -50%);
   padding: 10px;
   visibility:hidden;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .card-title {

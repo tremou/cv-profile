@@ -8,6 +8,10 @@ html, body {
     margin: 0;
 }
 
+section {
+  height: 90%;
+}
+
 body {
   background-color: #f0f0f0;
 }

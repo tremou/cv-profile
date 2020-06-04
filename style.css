@@ -3,12 +3,14 @@
   font-weight: 300;
 }
 
+/*This is where we make the sections take a full screen*/
+
 html, body {
     height: 100%;
     margin: 0;
 }
 
-section {
+#section02, #section04 {
   height: 90%;
 }
 
@@ -32,6 +34,11 @@ html {
  h1 {
   font-weight: 400;
  }
+
+/* Making the scroll arrow relative to its parent.*/
+#section02, #section03 {
+  position: relative;
+}
 
  #section01 a span {
    position: absolute;
@@ -99,6 +106,37 @@ html {
    animation-delay: .3s;
  }
 
+ #section03 a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section03 a span:nth-of-type(1) {
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+ #section03 a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section03 a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+
  @-webkit-keyframes sdb07 {
   0% {
     opacity: 0;
@@ -147,10 +185,6 @@ html {
   top: 130px;
   width: 100%;
   padding: 20px;
-}
-
-#section02 {
-  position: relative;
 }
 
 .presentation{
@@ -215,7 +249,7 @@ html {
   margin-left: 5px;
 }
 
-.skill-text-box {
+.skill-text-box, .bio-text-box {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 30px 20px;
   background-color: white;
@@ -249,6 +283,7 @@ html {
 }
 
 .bio {
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -279,6 +314,26 @@ html {
   max-height:65%;
 }
 
+#wrapper {
+  position: relative;
+}
+
+#wrapper:hover .pop-up {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 300ms, opacity 0s;
+}
+
+#wrapper .pop-up {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  visibility:hidden;
+}
+
 .card-title {
   margin-left: 10px;
   font-size: 25px;
@@ -292,6 +347,11 @@ html {
 
 .card:hover {
   cursor: pointer;
+  /*filter: blur(5px);*/
+  transition: 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
   filter: blur(5px);
   transition: 0.3s ease-in-out;
 }

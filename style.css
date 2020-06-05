@@ -216,6 +216,7 @@ html {
 
 .skill-list {
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .skill-list span {
@@ -225,6 +226,7 @@ html {
   font-size: 18px;
   font-weight: 500;
   margin-right: 0.5vw;
+  line-height: 5vw;
   color: #6d6d6d;
 }
 
@@ -446,6 +448,32 @@ html {
   position: relative;
 }
 
+.banner-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 0px 10px;
+}
+
+.banner-links a:hover {
+  opacity: 1;
+}
+
+#codewars-icon-size-banner {
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+#envelope-size {
+  font-size: 50px;
+}
+
 .footer-links {
   display: flex;
   align-items: center;
@@ -460,4 +488,9 @@ html {
 
 .footer-links a:hover {
   opacity: 1;
+}
+
+#codewars-icon-size {
+  height: 24px;
+  margin-bottom: 5px;
 }

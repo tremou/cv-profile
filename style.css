@@ -1,3 +1,6 @@
+@import "css-components/navbar.css";
+@import "css-components/footer.css";
+
 * {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -42,6 +45,11 @@ html {
 /* Making the scroll arrow relative to its parent.*/
 #section02, #section03, #section04 {
   position: relative;
+}
+
+#section06 {
+  position: relative;
+  bottom: 50px;
 }
 
  #section01 a span {
@@ -172,6 +180,36 @@ html {
    animation-delay: .3s;
  }
 
+  #section06 a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(135deg);
+   transform: rotate(135deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section06 a span:nth-of-type(1) {
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+ #section06 a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section06 a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
 
  @-webkit-keyframes sdb07 {
   0% {
@@ -433,64 +471,6 @@ html {
   transition: 0.3s ease-in-out;
 }
 
-.footer {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("images/footer.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  padding: 10px 50px;
-  color: white;
-  position: relative;
-}
-
-.banner-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 35px;
-  padding: 0px 10px;
-}
-
-.banner-links a:hover {
-  opacity: 1;
-}
-
-#codewars-icon-size-banner {
-  height: 35px;
-  margin-bottom: 5px;
-}
-
 #envelope-size {
   font-size: 50px;
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-
-.footer-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-
-.footer-links a:hover {
-  opacity: 1;
-}
-
-#codewars-icon-size {
-  height: 24px;
-  margin-bottom: 5px;
 }

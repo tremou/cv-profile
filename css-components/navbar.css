@@ -1,0 +1,26 @@
+.navbar {
+  background: transparent;
+  position: fixed;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.navbar-links a:hover {
+  opacity: 1;
+}

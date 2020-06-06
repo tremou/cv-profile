@@ -30,11 +30,42 @@
 .menu a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 500;
   padding: 0px 10px;
 }
 
 .menu a:hover {
   border-bottom: solid white 1px;
+}
+
+.navbar-under {
+    margin: 0;
+    background: #f0f0f0;
+    position: fixed;
+    color: black;
+    display: flex;
+  /*  justify-content: space-between;
+    width: 100%;*/
+    height: 30px;
+    z-index: 10;
+}
+
+.menu-under {
+  position: relative;
+  display: flex;
+  align-items: center;
+  right: 0;
+}
+
+.menu-under a {
+  color: black;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 0px 10px;
+}
+
+.menu-under a:hover {
+  border-bottom: solid black 1px;
 }

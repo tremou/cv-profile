@@ -1,9 +1,6 @@
 const navbar = document.querySelector(".navbar");
 const menu = document.querySelector(".menu");
 
-console.log(navbar);
-console.log(menu);
-
 window.addEventListener('scroll', () => {
   if (window.scrollY > 700) {
     navbar.classList.remove('navbar');
@@ -31,6 +28,3 @@ window.addEventListener('scroll', () => {
     menu.classList.add('menu');
   }
 });
-
-console.log(navbar);
-console.log(menu);

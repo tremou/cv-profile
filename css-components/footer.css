@@ -32,3 +32,25 @@
   height: 24px;
   margin-bottom: 5px;
 }
+
+.footer-links-skills {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links-skills a {
+  color: white;
+  text-decoration: none;
+  font-size: 44px;
+  padding: 0px 10px;
+}
+
+.footer-links-skills a:hover {
+  opacity: 1;
+}
+
+#codewars-icon-size-skills {
+  height: 44px;
+  margin-bottom: 5px;
+}
+

@@ -440,11 +440,35 @@ html {
 }
 
 .resume-title {
-
+ margin-bottom: 8px;
 }
 
 .resume-date {
   text-align: right;
+}
+
+.resume-intersection {
+  height: 20px;
+}
+
+.resume-text-box-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resume-text-box-title2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  border-top: solid #cecece 1px;
+}
+
+.resume-dates {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 #websites-container-margin-top {

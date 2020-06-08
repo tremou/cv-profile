@@ -274,6 +274,16 @@ html {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.bio-text-right-photo {
+  text-align: left;
+}
+
+#bio-text-under-photo {
+  margin-top: 15px;
+  font-size: min(16px, 1.9vh);
+  text-align: justify;
+}
+
 .text-content {
   text-align: justify;
   font-size: max(25px, 2vh);
@@ -282,7 +292,7 @@ html {
 .bio-text-content {
   padding: 15px;
   text-align: justify;
-  font-size: max(25px, 2vh);
+  font-size: max(20px, 1.7vh);
 }
 
 .skill-list {

@@ -269,9 +269,19 @@ html {
   margin-top: 20px;
 }
 
+#photo-bio {
+  height: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
 .text-content {
   text-align: justify;
-  /*font-size: min(25px, 3vh);*/
+  font-size: max(25px, 2vh);
+}
+
+.bio-text-content {
+  padding: 15px;
+  text-align: justify;
   font-size: max(25px, 2vh);
 }
 

@@ -253,7 +253,7 @@ html {
   height: 100%;
 }
 
-.skill-text-box, .bio-text-box {
+.skill-text-box {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 15px 20px 30px 20px;
   background-color: white;
@@ -261,13 +261,15 @@ html {
   margin-top: 20px;
 }
 
-.skill-text-title{
-  text-align: left;
-  font-size: 30px;
-  font-weight: 500;
+.bio-text-box {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 30px 20px 30px 20px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
-.skill-text-content {
+.text-content {
   text-align: justify;
   /*font-size: min(25px, 3vh);*/
   font-size: max(25px, 2vh);

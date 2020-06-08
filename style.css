@@ -243,7 +243,6 @@ html {
   position: relative;
 }
 
-
 #myVideo {
   position: relative;
   z-index:0;
@@ -276,6 +275,7 @@ html {
 
 .bio-text-right-photo {
   text-align: left;
+  line-height: 1.7em;
 }
 
 #bio-text-under-photo {
@@ -423,6 +423,28 @@ html {
   font-weight: 700;
   color: #6d6d6d;
   margin-bottom: 20px;
+}
+
+.resume {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.resume-text-box {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 30px 20px 30px 20px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.resume-title {
+
+}
+
+.resume-date {
+  text-align: right;
 }
 
 #websites-container-margin-top {

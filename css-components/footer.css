@@ -33,23 +33,37 @@
   margin-bottom: 5px;
 }
 
-.footer-links-skills {
+.footer-box {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../images/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  padding: 10px 50px;
+  color: white;
+  position: relative;
+}
+
+.footer-links-box {
   display: flex;
   align-items: center;
 }
 
-.footer-links-skills a {
+.footer-links-box a {
   color: white;
   text-decoration: none;
   font-size: 44px;
   padding: 0px 10px;
 }
 
-.footer-links-skills a:hover {
+.footer-links-box a:hover {
   opacity: 1;
 }
 
-#codewars-icon-size-skills {
+#codewars-icon-size-box {
   height: 44px;
   margin-bottom: 5px;
 }

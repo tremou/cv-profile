@@ -269,7 +269,8 @@ html {
 
 .skill-text-content {
   text-align: justify;
-  font-size: min(17px, 2.2vh);
+  /*font-size: min(25px, 3vh);*/
+  font-size: max(25px, 2vh);
 }
 
 .skill-list {

@@ -19,7 +19,7 @@ html, body {
 }
 
 #section05 {
-  height: 85%;
+  height: 90%;
 }
 
 body {
@@ -276,6 +276,7 @@ html {
 .bio-text-right-photo {
   text-align: left;
   line-height: 1.7em;
+  font-size: min(1.6vw, 18px);
 }
 
 #bio-text-under-photo {
@@ -286,7 +287,7 @@ html {
 
 .text-content {
   text-align: justify;
-  font-size: max(25px, 2vh);
+  font-size: min(28px, 2.4vh);
 }
 
 .bio-text-content {
@@ -432,10 +433,10 @@ html {
 
 .resume-text-box {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  padding: 30px 20px 30px 20px;
+  padding: 20px 20px 30px 20px;
   background-color: white;
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 20px;
 }
 
@@ -469,6 +470,12 @@ html {
 .resume-dates {
   font-size: 20px;
   font-weight: 500;
+}
+
+.resume-contact {
+  color: #286fac;
+  text-align: center;
+  margin-top: 25px;
 }
 
 #websites-container-margin-top {

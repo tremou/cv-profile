@@ -269,7 +269,7 @@ html {
 }
 
 #photo-bio {
-  width: 100%;
+  width: min(100%, 20vw);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -277,12 +277,6 @@ html {
   text-align: left;
   line-height: 1.7em;
   font-size: min(1.6vw, 18px);
-}
-
-#bio-text-under-photo {
-  margin-top: 15px;
-  font-size: min(16px, 1.9vh);
-  text-align: justify;
 }
 
 .text-content {

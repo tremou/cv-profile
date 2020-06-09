@@ -1,0 +1,45 @@
+.banner {
+  position: relative;
+}
+
+#myVideo {
+  position: relative;
+  z-index:0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  letter-spacing: 10px;
+  position: absolute;
+  z-index:1;
+  top: 130px;
+  width: 100%;
+  padding: 20px;
+}
+
+.presentation{
+  text-align: center;
+}
+
+#avatar {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#place-title {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  /*font-size: 6em;*/
+  font-size:6vw;
+}
+
+#text-white {
+  color: white;
+  font-size: 2vw;
+  font-weight: 400;
+}

@@ -1,0 +1,49 @@
+.language-bar {
+  margin-top: 20px;
+  text-align: center;
+  min-height: 100%;
+}
+
+.language-bar h1 {
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: #6d6d6d;
+}
+
+.language-bar-small {
+  position: absolute;
+  bottom: 30px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.skill-text-box {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 15px 20px 30px 20px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.skill-list {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.skill-list span {
+  padding: 5px 15px;
+  border: solid #286fac 1px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 0.5vw;
+  line-height: 5vw;
+  color: #6d6d6d;
+}
+
+.skills-text-content {
+  text-align: justify;
+  font-size: min(28px, 2.4vh);
+}
+

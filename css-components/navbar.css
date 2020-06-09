@@ -4,8 +4,6 @@
   position: fixed;
   color: white;
   display: flex;
-/*  justify-content: space-between;
-  width: 100%;*/
   height: 60px;
   z-index: 10;
 }
@@ -45,8 +43,6 @@
     position: fixed;
     color: black;
     display: flex;
-  /*  justify-content: space-between;
-    width: 100%;*/
     height: 30px;
     z-index: 10;
 }

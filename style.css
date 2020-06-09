@@ -453,18 +453,22 @@ html {
 }
 
 .resume-text-box-title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .resume-text-box-title2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 10px;
   border-top: solid #cecece 1px;
+}
+
+.resume-job-description {
+  font-size: min(1.6vw, 18px);
 }
 
 .resume-dates {

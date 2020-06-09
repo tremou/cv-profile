@@ -1,5 +1,6 @@
 @import "css-components/navbar.css";
 @import "css-components/footer.css";
+@import "css-components/sections.css";
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -14,12 +15,8 @@ html, body {
   color: #6d6d6d;
 }
 
-#section02, #section04 {
-  height: 90%;
-}
-
-#section05 {
-  height: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -32,212 +29,13 @@ a {
 
 a:hover { color: inherit; }
 
-h5 {
-  font-size: 25px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
- h1 {
+h1 {
   font-weight: 400;
  }
 
-/* Making the scroll arrow relative to its parent.*/
-#section02, #section03, #section04 {
-  position: relative;
+h5 {
+  font-size: 25px;
 }
-
-#section06 {
-  position: relative;
-  bottom: 50px;
-}
-
- #section01 a span {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   width: 24px;
-   height: 24px;
-   margin-left: -12px;
-   border-left: 4px solid #fff;
-   border-bottom: 4px solid #fff;
-   -webkit-transform: rotate(-45deg);
-   transform: rotate(-45deg);
-   -webkit-animation: sdb07 2s infinite;
-   animation: sdb07 2s infinite;
-   opacity: 0;
-   box-sizing: border-box;
- }
- #section01 a span:nth-of-type(1) {
-   -webkit-animation-delay: 0s;
-   animation-delay: 0s;
- }
- #section01 a span:nth-of-type(2) {
-   bottom: -16px;
-   -webkit-animation-delay: .15s;
-   animation-delay: .15s;
- }
- #section01 a span:nth-of-type(3) {
-   bottom: -32px;
-   -webkit-animation-delay: .3s;
-   animation-delay: .3s;
- }
-
-/* #section01, #section02, #section03, #section04 {
-  min-height: 85%;
- }*/
-
- #section02 a span {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   width: 24px;
-   height: 24px;
-   margin-left: -12px;
-   border-left: 4px solid #6d6d6d;
-   border-bottom: 4px solid #6d6d6d;
-   -webkit-transform: rotate(-45deg);
-   transform: rotate(-45deg);
-   -webkit-animation: sdb07 2s infinite;
-   animation: sdb07 2s infinite;
-   opacity: 0;
-   box-sizing: border-box;
- }
- #section02 a span:nth-of-type(1) {
-   -webkit-animation-delay: 0s;
-   animation-delay: 0s;
- }
- #section02 a span:nth-of-type(2) {
-   bottom: -16px;
-   -webkit-animation-delay: .15s;
-   animation-delay: .15s;
- }
- #section02 a span:nth-of-type(3) {
-   bottom: -32px;
-   -webkit-animation-delay: .3s;
-   animation-delay: .3s;
- }
-
- #section03 > a span {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   width: 24px;
-   height: 24px;
-   margin-left: -12px;
-   border-left: 4px solid #6d6d6d;
-   border-bottom: 4px solid #6d6d6d;
-   -webkit-transform: rotate(-45deg);
-   transform: rotate(-45deg);
-   -webkit-animation: sdb07 2s infinite;
-   animation: sdb07 2s infinite;
-   opacity: 0;
-   box-sizing: border-box;
- }
- #section03 > a span:nth-of-type(1) {
-   -webkit-animation-delay: 0s;
-   animation-delay: 0s;
- }
- #section03 > a span:nth-of-type(2) {
-   bottom: -16px;
-   -webkit-animation-delay: .15s;
-   animation-delay: .15s;
- }
- #section03 > a span:nth-of-type(3) {
-   bottom: -32px;
-   -webkit-animation-delay: .3s;
-   animation-delay: .3s;
- }
-
-  #section04 a span {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   width: 24px;
-   height: 24px;
-   margin-left: -12px;
-   border-left: 4px solid #6d6d6d;
-   border-bottom: 4px solid #6d6d6d;
-   -webkit-transform: rotate(-45deg);
-   transform: rotate(-45deg);
-   -webkit-animation: sdb07 2s infinite;
-   animation: sdb07 2s infinite;
-   opacity: 0;
-   box-sizing: border-box;
- }
- #section04 a span:nth-of-type(1) {
-   -webkit-animation-delay: 0s;
-   animation-delay: 0s;
- }
- #section04 a span:nth-of-type(2) {
-   bottom: -16px;
-   -webkit-animation-delay: .15s;
-   animation-delay: .15s;
- }
- #section04 a span:nth-of-type(3) {
-   bottom: -32px;
-   -webkit-animation-delay: .3s;
-   animation-delay: .3s;
- }
-
-  #section06 a span {
-   position: absolute;
-   bottom: 0;
-   left: 50%;
-   width: 24px;
-   height: 24px;
-   margin-left: -12px;
-   border-left: 4px solid #6d6d6d;
-   border-bottom: 4px solid #6d6d6d;
-   -webkit-transform: rotate(135deg);
-   transform: rotate(135deg);
-   -webkit-animation: sdb07 2s infinite;
-   animation: sdb07 2s infinite;
-   opacity: 0;
-   box-sizing: border-box;
- }
- #section06 a span:nth-of-type(1) {
-   -webkit-animation-delay: .3s;
-   animation-delay: .3s;
- }
- #section06 a span:nth-of-type(2) {
-   bottom: -16px;
-   -webkit-animation-delay: .15s;
-   animation-delay: .15s;
- }
- #section06 a span:nth-of-type(3) {
-   bottom: -32px;
-   -webkit-animation-delay: 0s;
-   animation-delay: 0s;
- }
-
- @-webkit-keyframes sdb07 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb07 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/*.banner {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('images/computer-1209641_1920.jpg');
-}*/
 
 .banner {
   position: relative;
@@ -349,9 +147,6 @@ html {
 }
 
 #avatar {
-  /*border: 3px solid #286fac;*/
-/*  width: 200px;
-  height: 200px;*/
   width: 13vw;
   height: 13vw;
   border-radius: 50%;
@@ -530,14 +325,12 @@ html {
 
 .card-text {
   margin: 0px 20px 8px 20px;
-  /*bellow, text adapts to screen but never exceeds 18px*/
   font-size: min(1.6vw, 18px);
   text-align: center;
 }
 
 .card:hover {
   cursor: pointer;
-  /*filter: blur(5px);*/
   transition: 0.3s ease-in-out;
 }
 

@@ -1,0 +1,195 @@
+ #section02, #section04 {
+   height: 90%;
+ }
+
+ #section05 {
+   height: 90%;
+ }
+
+/* Making the scroll arrow relative to its parent.*/
+#section02, #section03, #section04 {
+  position: relative;
+}
+
+#section06 {
+  position: relative;
+  bottom: 50px;
+}
+
+ #home-arrows a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #fff;
+   border-bottom: 4px solid #fff;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #home-arrows a span:nth-of-type(1) {
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+ #home-arrows a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #home-arrows a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+
+ #section02 a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section02 a span:nth-of-type(1) {
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+ #section02 a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section02 a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+
+ #section03 > a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section03 > a span:nth-of-type(1) {
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+ #section03 > a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section03 > a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+
+  #section04 a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section04 a span:nth-of-type(1) {
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+ #section04 a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section04 a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+
+  #section06 a span {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 4px solid #6d6d6d;
+   border-bottom: 4px solid #6d6d6d;
+   -webkit-transform: rotate(135deg);
+   transform: rotate(135deg);
+   -webkit-animation: sdb07 2s infinite;
+   animation: sdb07 2s infinite;
+   opacity: 0;
+   box-sizing: border-box;
+ }
+ #section06 a span:nth-of-type(1) {
+   -webkit-animation-delay: .3s;
+   animation-delay: .3s;
+ }
+ #section06 a span:nth-of-type(2) {
+   bottom: -16px;
+   -webkit-animation-delay: .15s;
+   animation-delay: .15s;
+ }
+ #section06 a span:nth-of-type(3) {
+   bottom: -32px;
+   -webkit-animation-delay: 0s;
+   animation-delay: 0s;
+ }
+
+ @-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

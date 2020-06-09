@@ -1,17 +1,17 @@
- #section02, #section04 {
+ #skills, #bio {
    height: 90%;
  }
 
- #section05 {
+ #resume {
    height: 90%;
  }
 
 /* Making the scroll arrow relative to its parent.*/
-#section02, #section03, #section04 {
+#skills, #portfolio, #bio {
   position: relative;
 }
 
-#section06 {
+#footer {
   position: relative;
   bottom: 50px;
 }
@@ -47,7 +47,7 @@
    animation-delay: .3s;
  }
 
- #section02 a span {
+ #skills a span {
    position: absolute;
    bottom: 0;
    left: 50%;
@@ -63,22 +63,22 @@
    opacity: 0;
    box-sizing: border-box;
  }
- #section02 a span:nth-of-type(1) {
+ #skills a span:nth-of-type(1) {
    -webkit-animation-delay: 0s;
    animation-delay: 0s;
  }
- #section02 a span:nth-of-type(2) {
+ #skills a span:nth-of-type(2) {
    bottom: -16px;
    -webkit-animation-delay: .15s;
    animation-delay: .15s;
  }
- #section02 a span:nth-of-type(3) {
+ #skills a span:nth-of-type(3) {
    bottom: -32px;
    -webkit-animation-delay: .3s;
    animation-delay: .3s;
  }
 
- #section03 > a span {
+ #portfolio > a span {
    position: absolute;
    bottom: 0;
    left: 50%;
@@ -94,22 +94,22 @@
    opacity: 0;
    box-sizing: border-box;
  }
- #section03 > a span:nth-of-type(1) {
+ #portfolio > a span:nth-of-type(1) {
    -webkit-animation-delay: 0s;
    animation-delay: 0s;
  }
- #section03 > a span:nth-of-type(2) {
+ #portfolio > a span:nth-of-type(2) {
    bottom: -16px;
    -webkit-animation-delay: .15s;
    animation-delay: .15s;
  }
- #section03 > a span:nth-of-type(3) {
+ #portfolio > a span:nth-of-type(3) {
    bottom: -32px;
    -webkit-animation-delay: .3s;
    animation-delay: .3s;
  }
 
-  #section04 a span {
+  #bio a span {
    position: absolute;
    bottom: 0;
    left: 50%;
@@ -125,22 +125,22 @@
    opacity: 0;
    box-sizing: border-box;
  }
- #section04 a span:nth-of-type(1) {
+ #bio a span:nth-of-type(1) {
    -webkit-animation-delay: 0s;
    animation-delay: 0s;
  }
- #section04 a span:nth-of-type(2) {
+ #bio a span:nth-of-type(2) {
    bottom: -16px;
    -webkit-animation-delay: .15s;
    animation-delay: .15s;
  }
- #section04 a span:nth-of-type(3) {
+ #bio a span:nth-of-type(3) {
    bottom: -32px;
    -webkit-animation-delay: .3s;
    animation-delay: .3s;
  }
 
-  #section06 a span {
+  #footer a span {
    position: absolute;
    bottom: 0;
    left: 50%;
@@ -156,16 +156,16 @@
    opacity: 0;
    box-sizing: border-box;
  }
- #section06 a span:nth-of-type(1) {
+ #footer a span:nth-of-type(1) {
    -webkit-animation-delay: .3s;
    animation-delay: .3s;
  }
- #section06 a span:nth-of-type(2) {
+ #footer a span:nth-of-type(2) {
    bottom: -16px;
    -webkit-animation-delay: .15s;
    animation-delay: .15s;
  }
- #section06 a span:nth-of-type(3) {
+ #footer a span:nth-of-type(3) {
    bottom: -32px;
    -webkit-animation-delay: 0s;
    animation-delay: 0s;

@@ -1,8 +1,4 @@
-@media screen and (max-width: 420px) {
-
-  a > span {
-    display: none;
-  }
+@media screen and (max-width: 768px) {
 
   h3 {
     margin: 0;
@@ -25,49 +21,15 @@
     display: none;
   }
 
-  #avatar {
-    width: 90px;
-    height: 90px;
-    margin-top: -10px;
-  }
-
   .presentation{
-    margin-top: -120px;
+    margin-top: -100px;
     text-align: center;
-  }
-
-  #place-title {
-    margin-top: 0;
-    font-size:5vw;
   }
 
   #text-white {
     color: white;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: 400;
-  }
-
-  .navbar {
-    margin-top: -10px;
-    color: white;
-    z-index: 10;
-    position: absolute;
-  }
-
-  .menu a {
-    font-size: 3.6vw;
-  }
-
-  .navbar-under {
-    display: none;
-  }
-
-  .menu-under {
-    display: none;
-  }
-
-  .menu-under a {
-    display: none;
   }
 
   .footer-box {

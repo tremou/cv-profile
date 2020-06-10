@@ -7,7 +7,7 @@
 @import "css-components/bio.css";
 @import "css-components/resume.css";
 
-@import "screen-scaling/phone.css"
+@import "screen-scaling/phone.css";
 
 
 * {
@@ -36,11 +36,3 @@ a {
   }
 
 a:hover { color: inherit; }
-
-h1 {
-  font-weight: 400;
- }
-
-h5 {
-  font-size: 25px;
-}

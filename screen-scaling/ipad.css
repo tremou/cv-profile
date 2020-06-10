@@ -1,13 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 421px) {
 
   h3 {
     margin: 0;
   }
 
-  .language-bar h1, .websites h1, .bio h1, .resume h1 {
-    font-size: 18px;
-    margin-bottom: 0;
-  }
 
   #skills, #bio {
     height: unset;
@@ -17,19 +13,32 @@
     height: unset;
   }
 
-  #empty-container {
-    display: none;
+  #avatar {
+    width: 120px;
+    height: 120px;
   }
 
   .presentation{
-    margin-top: -100px;
+    margin-top: -65px;
     text-align: center;
+  }
+
+  #empty-container {
+    display: none;
   }
 
   #text-white {
     color: white;
     font-size: 3.5vw;
     font-weight: 400;
+  }
+
+  #home-arrows {
+    margin-top: 20px;
+  }
+
+  .skill-text-box {
+    margin-bottom: 35px;
   }
 
   .footer-box {
@@ -39,82 +48,26 @@
     padding: 10px 50px 0px 50px;
   }
 
-
-  .skill-list {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .skill-list span {
-    padding: 1px 4px;
-    font-size: 13px;
-    line-height: 7vw;
-  }
-
-  .skills-text-content {
-    text-align: justify;
-    font-size: 2.4vh;
-  }
-
   .card-text {
     margin: 0px 20px 8px 20px;
     font-size: 2.4vh;
     text-align: justify;
   }
 
-  .skill-list-small {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-  }
-
-  .skill-list-small span {
-    padding: 1px 4px;
-    border: solid #286fac 1px;
-    border-radius: 50px;
-    font-size: 10px;
-    font-weight: 700;
-    margin-right: 0.2vw;
-    color: #6d6d6d;
-  }
-
   .card {
-    background-color: white;
-    width: 100%;
-    height: 415px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    height: 100%;
+    padding-bottom: 35px;
   }
-
-  .card-img-top {
-    display: none;
-  }
-
-  .card-img-top-phone {
-    visibility: visible;
-    padding: 20px 20px 10px 20px ;
-    max-width:100%;
-    max-height: 230px;
-    border-bottom: solid #dddddd 1px;
-  }
-
-  .card-img-top-phone:hover {
-  filter: blur(5px);
-  transition: 0.3s ease-in-out;
-  }
-
 
 
   #photo-bio {
-    width: 100%;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 250px;
   }
 
   .bio-text-right-photo {
     text-align: justify;
     line-height: 1.7em;
-    font-size: 2.4vh;
+    font-size: 19px;
   }
 
 
@@ -155,15 +108,4 @@
     margin-top: 15px;
   }
 
-}
-
-
-@media screen and (min-width: 421px) {
-  .card-img-top-phone {
-    display: none;
-  }
-
-  .resume-contact-phone {
-    display: none;
-  }
 }

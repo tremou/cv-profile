@@ -145,12 +145,46 @@
   }
 
 
+  .resume-text-box-title {
+    font-size: 19px;
+  }
+
+  .resume-text-box-title2 {
+    font-size: 19px;
+  }
+
+  .resume-title {
+    font-size: 12px;
+  }
+
+  .resume-dates {
+    font-size: 12px;
+  }
+
+  .resume-job-description {
+    font-size: 2.4vh;
+  }
+
+  .resume-contact {
+    display: none;
+  }
+
+  .resume-contact-phone {
+    color: #286fac;
+    text-align: center;
+    margin-top: 11px;
+    font-size: 2.4vh;
+  }
 
 }
 
 
 @media screen and (min-width: 421px) {
   .card-img-top-phone {
+    display: none;
+  }
+
+  .resume-contact-phone {
     display: none;
   }
 }

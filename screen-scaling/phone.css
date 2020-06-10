@@ -1,6 +1,6 @@
 @media screen and (max-width: 420px) {
 
-  a span {
+  a > span {
     display: none;
   }
 
@@ -59,4 +59,51 @@
     display: none;
   }
 
+  .footer-box {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 10px 50px 0px 50px;
+  }
+
+
+  .skill-list {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .skill-list span {
+    padding: 1px 4px;
+    font-size: 13px;
+    line-height: 7vw;
+  }
+
+  .skills-text-content {
+    text-align: justify;
+    font-size: 2.4vh;
+  }
+
+
+
+  .card-text {
+    margin: 0px 20px 8px 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .skill-list-small {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+  }
+
+  .skill-list-small span {
+    padding: 5px 15px;
+    border: solid #286fac 1px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 0.2vw;
+    color: #6d6d6d;
+  }
 }

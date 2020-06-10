@@ -7,6 +7,9 @@
 @import "css-components/bio.css";
 @import "css-components/resume.css";
 
+@import "screen-scaling/phone.css"
+
+
 * {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;

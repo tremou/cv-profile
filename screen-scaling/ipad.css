@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) and (min-width: 421px) {
+@media screen and (max-width: 1024px) and (min-width: 721px) {
 
   h3 {
     margin: 0;
@@ -10,7 +10,7 @@
   }
 
   #resume {
-    height: unset;
+    height: 92%;
   }
 
   #avatar {
@@ -25,6 +25,14 @@
 
   #empty-container {
     display: none;
+  }
+
+  #empty-container2 {
+    height: 30px !important;
+  }
+
+  #empty-container3 {
+    height: 50px !important;
   }
 
   #text-white {
@@ -71,41 +79,56 @@
   }
 
 
-  .resume-text-box-title {
-    font-size: 19px;
-  }
-
-  .resume-text-box-title2 {
-    font-size: 19px;
-  }
-
-  .resume-title {
-    font-size: 12px;
-  }
-
-  .resume-dates {
-    font-size: 12px;
-  }
-
   .resume-job-description {
     font-size: 2.4vh;
   }
 
-  .resume-contact {
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .bio-text-right-photo {
     display: none;
   }
 
-  .resume-contact-phone {
-    color: #286fac;
-    text-align: center;
-    margin-top: 11px;
-    font-size: 2.4vh;
+    .bio-text-right-photo-ipad {
+
   }
 
+    .bio-text-under-photo {
 
-  .footer {
-    height: 50px;
-    margin-top: 15px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .bio-text-right-photo-ipad {
+      display: none;
+  }
+
+    .bio-text-under-photo {
+      display: none;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .bio-text-right-photo-ipad {
+      display: none;
+  }
+
+    .bio-text-under-photo {
+      display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 992px) {
+  #photo-bio {
+    width: 100%;
   }
 
 }

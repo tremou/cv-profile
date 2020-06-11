@@ -48,7 +48,8 @@
 }
 
 .resume-job-description {
-  font-size: min(1.6vw, 18px);
+  font-size: 19px !important;
+  text-align: justify;
 }
 
 .resume-dates {

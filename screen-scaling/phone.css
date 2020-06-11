@@ -31,7 +31,7 @@
   }
 
   .presentation{
-    margin-top: -107px;
+    margin-top: -130px;
     text-align: center;
   }
 
@@ -46,15 +46,23 @@
     font-weight: 400;
   }
 
-  .navbar {
-    margin-top: -10px;
-    color: white;
-    z-index: 10;
-    position: absolute;
+  .menu-iphone {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .menu a {
-    font-size: 3.6vw;
+  .menu-iphone a {
+    margin-top: 25px;
+    padding-right: 3px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+
+  .menu {
+    display: none;
   }
 
   .navbar-under {
@@ -197,6 +205,10 @@
   }
 
   .resume-contact-phone {
+    display: none;
+  }
+
+  .menu-iphone {
     display: none;
   }
 }

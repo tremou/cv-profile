@@ -7,7 +7,7 @@
 }
 
 #photo-bio {
-  width: min(100%, 20vw);
+  width: min(80%, 20vw);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 

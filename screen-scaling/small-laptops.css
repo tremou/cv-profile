@@ -11,10 +11,6 @@
     height: 800px;
   }
 
-  #photo-bio {
-    width: 380px;
-  }
-
   .skills-text-content {
     font-size: min(1.6vw, 18px);
   }

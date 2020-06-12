@@ -141,8 +141,12 @@
   }
 
   .card-img-top-phone:hover {
-  filter: blur(5px);
-  transition: 0.3s ease-in-out;
+    filter: blur(5px);
+    transition: 0.3s ease-in-out;
+  }
+
+  #wrapper:hover .card-img-top-phone {
+    filter: blur(5px);
   }
 
 
@@ -206,6 +210,11 @@
 
 
 @media screen and (min-width: 512px) and (max-width: 767px) {
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
 
   #photo-bio {
     display: none;

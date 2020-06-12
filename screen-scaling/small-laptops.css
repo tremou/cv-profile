@@ -1,0 +1,21 @@
+@media screen and (min-width: 1025px) and (max-width: 1367px) {
+  #skills {
+    height: 650px;
+  }
+
+  #bio {
+    height: 750px;
+  }
+
+  #resume {
+    height: 800px;
+  }
+
+  #photo-bio {
+    width: 380px;
+  }
+
+  .skills-text-content {
+    font-size: min(1.6vw, 18px);
+  }
+}

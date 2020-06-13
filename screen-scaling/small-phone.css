@@ -1,0 +1,9 @@
+@media screen and (max-width: 378px) {
+  .skill-list-small span {
+    font-size: 8px;
+  }
+
+  .footer-links a {
+    font-size: 25px;
+  }
+}

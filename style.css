@@ -10,6 +10,7 @@
 @import "screen-scaling/phone.css";
 @import "screen-scaling/ipad.css";
 @import "screen-scaling/small-laptops.css";
+@import "screen-scaling/small-phone.css";
 
 
 * {

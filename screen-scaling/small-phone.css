@@ -6,4 +6,9 @@
   .footer-links a {
     font-size: 25px;
   }
+
+  #codewars-icon-size {
+    height: 25px;
+  }
+
 }

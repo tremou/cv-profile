@@ -3,6 +3,7 @@
 }
 
 #myVideo {
+  background-color: black;
   position: relative;
   z-index:0;
   right: 0;

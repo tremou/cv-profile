@@ -33,9 +33,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-console.log(vw);
-console.log(vh);
-
 if (vw < 1300) {
   window.addEventListener('scroll', () => {
     if (window.scrollY > 630) {
@@ -126,3 +123,17 @@ if (vw < 900) {
     }
   });
 }
+
+
+const test = () => { console.log('hello') };
+
+let options = {
+  root: document.querySelector('.banner'),
+  rootMargin: '0px',
+  threshold: 1.0
+}
+
+let observer = new IntersectionObserver(test, options);
+
+let target = document.querySelector('.menu-iphone');
+observer.observe(target);

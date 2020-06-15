@@ -133,9 +133,13 @@ const options = {};
 const callback = (entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting === false) {
+      navbar.classList.remove('navbar');
+      navbar.classList.add("navbar-under");
       menu.classList.remove("menu");
       menu.classList.add('menu-under');
     } else {
+      navbar.classList.remove('navbar-under');
+      navbar.classList.add("navbar");
       menu.classList.remove("menu-under");
       menu.classList.add('menu');
     }
@@ -145,4 +149,28 @@ const callback = (entries, observer) => {
 const observer = new IntersectionObserver(callback, options);
 
 observer.observe(target);
+
+
+
+
+// const menuIphone = document.querySelector(".menu-iphone");
+
+// const optionsPhone = {};
+
+// const callbackPhone = (entriesPhone, observerPhone) => {
+//   entriesPhone.forEach(entry => {
+//     if (entry.isIntersecting === false) {
+//       console.log(target);
+//       menuIphone.classList.remove("menu-iphone");
+//       menuIphone.classList.add('menu-iphone-under');
+//     } else {
+//       menuIphone.classList.remove("menu-iphone-under");
+//       menuIphone.classList.add('menu-iphone');
+//     }
+//   });
+// };
+
+// const observerPhone = new IntersectionObserver(callbackPhone, optionsPhone);
+
+// observerPhone.observe(target);
 

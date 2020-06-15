@@ -80,14 +80,14 @@
 /* menu when scfrolling down */
 
 /*  .menu-iphone-under {
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     right: 0;
   }
 
   .menu-iphone-under a {
-    color: black;
+    color: red;
     text-decoration: none;
     font-size: min(18px, 1.3vw);
     font-weight: 500;
@@ -96,8 +96,8 @@
 
   .menu-iphone-under a:hover {
     border-bottom: solid black 1px;
-  }*/
-
+  }
+*/
 /* end of: menu when scfrolling down */
 
   .footer-box {

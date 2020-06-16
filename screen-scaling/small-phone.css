@@ -12,3 +12,9 @@
   }
 
 }
+
+@media screen and (max-width: 360px) {
+  .menu-iphone {
+    display: none;
+  }
+}

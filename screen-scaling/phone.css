@@ -102,6 +102,7 @@
   .menu-iphone-under-after a {
     padding-right: 3px;
     color: black;
+    font-weight: 500 !important;
     letter-spacing: 2px;
     font-size: 3vw;
     font-weight: 700;
@@ -109,7 +110,6 @@
 
   .menu-iphone-under-after a:hover {
     color: #6d6d6d;
-    border-bottom: solid white 1px;
   }
 
 
@@ -259,6 +259,11 @@
   #photo-bio-landscape {
     width: 100%;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  .menu-iphone {
+    color: white;
+    bottom: -50px;
   }
 
 

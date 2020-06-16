@@ -47,9 +47,8 @@
   }
 
   .menu-iphone {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+    position: fixed;
+
   }
 
   .menu-iphone a {
@@ -78,6 +77,12 @@
   }
 
 /* menu when scfrolling down */
+
+  .navbar-iphone {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
 
 /*  .menu-iphone-under {
     position: fixed;

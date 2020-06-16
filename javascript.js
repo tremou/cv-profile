@@ -153,24 +153,39 @@ observer.observe(target);
 
 
 
-const menuIphone = document.querySelector(".menu-iphone");
+const menuIphone = document.querySelector(".banner");
+const navbarIphone = document.querySelector(".menu-iphone-under");
 
 const optionsPhone = {};
 
 const callbackPhone = (entriesPhone, observerPhone) => {
   entriesPhone.forEach(entry => {
     if (entry.isIntersecting === false) {
-      console.log(target);
-      menuIphone.classList.remove("menu-iphone");
-      menuIphone.classList.add('menu-iphone-under');
+      console.log(entriesPhone);
+      navbarIphone.classList.remove("menu-iphone-under");
+      navbarIphone.classList.add('menu-iphone-under-after');
+
+
+      // const element = document.querySelector(".navbar-iphone");
+      // element.parentNode.removeChild(element);
+
+
+      // menuIphone.classList.remove("navbar-iphone");
+      // menuIphone.classList.add('navbar-iphone-under');
     } else {
-      menuIphone.classList.remove("menu-iphone-under");
-      menuIphone.classList.add('menu-iphone');
+      console.log(entriesPhone);
+      navbarIphone.classList.remove("menu-iphone-under-after");
+      navbarIphone.classList.add("menu-iphone-under");
+
+
+
+      // menuIphone.classList.remove("navbar-iphone-under");
+      // menuIphone.classList.add('navbar-iphone');
     }
   });
 };
 
 const observerPhone = new IntersectionObserver(callbackPhone, optionsPhone);
 
-observerPhone.observe(target);
+observerPhone.observe(menuIphone);
 

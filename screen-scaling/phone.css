@@ -21,6 +21,15 @@
     height: unset;
   }
 
+  #skills-space-top {
+    height: 10px;
+  }
+
+  #skills-top {
+    height: 15px;
+  }
+
+
   #empty-container {
     display: none;
   }
@@ -84,7 +93,10 @@
 
 
   .navbar-iphone-under {
-    background: #f0f0f0;
+    /*background: #f0f0f0;*/
+    background-image: url("../images/footer.jpg");
+    background-size: cover;
+    border-radius: 10px;
   }
 
 
@@ -101,7 +113,8 @@
 
   .menu-iphone-under-after a {
     padding-right: 3px;
-    color: black;
+    /*color: black;*/
+    color: white;
     font-weight: 500 !important;
     letter-spacing: 2px;
     font-size: 3vw;

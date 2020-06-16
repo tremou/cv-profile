@@ -63,6 +63,9 @@
     display: none;
   }
 
+/*  .navbar-iphone {
+    position: fixed;
+  }*/
 
   .menu-iphone {
     position: relative;
@@ -79,34 +82,21 @@
     font-weight: 700;
   }
 
+
   .navbar-iphone-under {
-    position: fixed;
-    z-index: 10;
-    background: white;
-    color: black;
-    display: flex;
-    height: 30px;
+    background: #f0f0f0;
   }
 
-  .menu-iphone-under {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
 
   .menu-iphone-under a {
     display: none;
   }
 
-
   .menu-iphone-under-after {
-    position: relative;
     display: flex;
     justify-content: space-between;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .menu-iphone-under-after a {
@@ -117,28 +107,11 @@
     font-weight: 700;
   }
 
-/* menu when scfrolling down */
-
-/*  .menu-iphone-under {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    right: 0;
+  .menu-iphone-under-after a:hover {
+    color: #6d6d6d;
+    border-bottom: solid white 1px;
   }
 
-  .menu-iphone-under a {
-    color: red;
-    text-decoration: none;
-    font-size: min(18px, 1.3vw);
-    font-weight: 500;
-    padding: 0px 10px;
-  }
-
-  .menu-iphone-under a:hover {
-    border-bottom: solid black 1px;
-  }
-*/
-/* end of: menu when scfrolling down */
 
   .footer-box {
     display: flex;

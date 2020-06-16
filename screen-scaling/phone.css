@@ -79,6 +79,15 @@
     font-weight: 700;
   }
 
+  .navbar-iphone-under {
+    position: fixed;
+    z-index: 10;
+    background: white;
+    color: black;
+    display: flex;
+    height: 30px;
+  }
+
   .menu-iphone-under {
     position: relative;
     display: flex;

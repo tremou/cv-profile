@@ -34,7 +34,10 @@ observer.observe(target);
 const menuIphone = document.querySelector(".banner");
 const navbarIphone = document.querySelector(".menu-iphone-under");
 
-const optionsPhone = {};
+const optionsPhone = {
+  threshold: 0,
+  rootMargin: "-110px",
+};
 
 const callbackPhone = (entriesPhone, observerPhone) => {
   entriesPhone.forEach(entry => {

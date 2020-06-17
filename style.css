@@ -11,7 +11,7 @@
 @import "screen-scaling/ipad.css";
 @import "screen-scaling/small-laptops.css";
 @import "screen-scaling/small-phone.css";
-
+@import "screen-scaling/intermediate.css";
 
 * {
   font-family: 'Open Sans', sans-serif;

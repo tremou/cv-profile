@@ -26,9 +26,8 @@
   }
 
   #skills-top {
-    height: 15px;
+    height: 40px;
   }
-
 
   #empty-container {
     display: none;
@@ -91,6 +90,9 @@
     font-weight: 700;
   }
 
+  .menu-iphone a:hover {
+    border-bottom: solid 1px;
+  }
 
   .navbar-iphone-under {
     /*background: #f0f0f0;*/
@@ -109,16 +111,22 @@
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
   }
 
   .menu-iphone-under-after a {
     padding-right: 3px;
     /*color: black;*/
-    color: white;
     font-weight: 500 !important;
     letter-spacing: 2px;
     font-size: 3vw;
     font-weight: 700;
+  }
+
+  .menu-iphone-under-after a:hover {
+    border-bottom: solid 1px;
   }
 
   .menu-iphone-under-after a:hover {

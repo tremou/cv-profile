@@ -36,7 +36,7 @@ const navbarIphone = document.querySelector(".menu-iphone-under");
 
 const optionsPhone = {
   threshold: 0,
-  rootMargin: "-110px",
+  rootMargin: "-20px",
 };
 
 const callbackPhone = (entriesPhone, observerPhone) => {

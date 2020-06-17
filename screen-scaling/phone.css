@@ -71,10 +71,6 @@
     display: none;
   }
 
-/*  .navbar-iphone {
-    position: fixed;
-  }*/
-
   .menu-iphone {
     position: relative;
     display: flex;
@@ -95,7 +91,6 @@
   }
 
   .navbar-iphone-under {
-    /*background: #f0f0f0;*/
     background-image: url("../images/footer.jpg");
     background-size: cover;
     border-radius: 10px;
@@ -107,6 +102,7 @@
   }
 
   .menu-iphone-under-after {
+    transition: .25s ease-in-out;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -118,7 +114,6 @@
 
   .menu-iphone-under-after a {
     padding-right: 3px;
-    /*color: black;*/
     font-weight: 500 !important;
     letter-spacing: 2px;
     font-size: 3vw;

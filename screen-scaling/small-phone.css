@@ -11,10 +11,15 @@
     height: 25px;
   }
 
+  .menu-iphone {
+    bottom: 10px;
+  }
+
 }
 
 @media screen and (max-width: 360px) {
   .menu-iphone {
     display: none;
   }
+
 }

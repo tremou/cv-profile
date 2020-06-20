@@ -87,6 +87,7 @@
   }
 
   .menu-iphone a:hover {
+    text-decoration: none;
     border-bottom: solid 1px;
     color: white;
   }
@@ -122,6 +123,7 @@
   }
 
   .menu-iphone-under-after a:hover {
+    text-decoration: none;
     border-bottom: solid 1px;
     color: white;
   }

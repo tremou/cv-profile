@@ -335,7 +335,12 @@
 
   .menu-iphone {
     color: white;
-    bottom: -120px;
+    bottom: -80px;
+  }
+
+  #avatar {
+    width: 18vw;
+    height: 18vw;
   }
 
 }
@@ -344,7 +349,12 @@
 
   .menu-iphone {
     color: white;
-    bottom: -80px;
+    bottom: -50px;
+  }
+
+  #avatar {
+    width: 18vw;
+    height: 18vw;
   }
 
 }
@@ -353,7 +363,12 @@
 
   .menu-iphone {
     color: white;
-    bottom: -30px;
+    bottom: -10px;
+  }
+
+  #avatar {
+    width: 18vw;
+    height: 18vw;
   }
 
 }

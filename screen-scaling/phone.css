@@ -257,6 +257,10 @@
     font-size: 25px;
   }
 
+  #codewars-icon-size {
+    height: 25px;
+  }
+
 }
 
 @media screen and (max-width: 511px) {
@@ -325,4 +329,31 @@
   .menu-iphone {
     display: none;
   }
+}
+
+@media screen and (max-width: 734px) and (max-height: 500px) and (min-height: 351px) {
+
+  .menu-iphone {
+    color: white;
+    bottom: -120px;
+  }
+
+}
+
+@media screen and (max-width: 734px) and (max-height: 350px) and (min-height: 301px) {
+
+  .menu-iphone {
+    color: white;
+    bottom: -80px;
+  }
+
+}
+
+@media screen and (max-width: 734px) and (max-height: 300px) {
+
+  .menu-iphone {
+    color: white;
+    bottom: -30px;
+  }
+
 }

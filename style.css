@@ -12,7 +12,6 @@
 @import "screen-scaling/small-laptops.css";
 @import "screen-scaling/small-phone.css";
 @import "screen-scaling/intermediate.css";
-@import "screen-scaling/viewport-ratio.css";
 
 * {
   font-family: 'Open Sans', sans-serif;

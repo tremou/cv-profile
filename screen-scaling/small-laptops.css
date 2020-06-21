@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1089px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   #skills {
     height: 650px;
   }
@@ -14,19 +14,6 @@
   .skills-text-content {
     font-size: min(1.6vw, 18px);
   }
-}
-
-
-@media screen and (min-width: 1090px) and (max-width: 1279px) and (max-height: 815px) {
-
-  #bio {
-    height: 850px !important;
-  }
-
-  #resume {
-    height: 880px;
-  }
-
 }
 
 
@@ -48,16 +35,12 @@
   }
 }
 
-
-
-/*@media screen and (min-width: 1024px) and (max-height: 800px) {
-
-    #bio {
-    height: 820px;
+@media screen and (min-width: 1368px) and (max-width: 1600px) {
+  #bio {
+    height: 850px;
   }
 
   #resume {
-    height: 800px;
+    height: 860px;
   }
-
-}*/
+}

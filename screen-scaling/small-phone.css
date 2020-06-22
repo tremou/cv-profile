@@ -19,7 +19,8 @@
 
 @media screen and (max-width: 360px) {
   .menu-iphone {
-    display: none;
+    /*display: none;*/
+    bottom: 20px;
   }
 
 }

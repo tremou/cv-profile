@@ -132,3 +132,14 @@
   }
 
 }
+
+@media screen and (max-width: 991px) and (min-width: 737px) {
+  #bio {
+    height: 60em;
+  }
+
+  #resume {
+    height: 75em;
+  }
+}
+

@@ -5,7 +5,9 @@ const menu = document.querySelector(".menu");
 
 const target = document.querySelector('.banner');
 
-const options = {};
+const options = {
+  rootMargin: "-20px",
+};
 
 const callback = (entries, observer) => {
   entries.forEach(entry => {

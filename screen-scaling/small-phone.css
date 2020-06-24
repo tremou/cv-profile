@@ -16,3 +16,28 @@
   }
 
 }
+
+@media screen and (max-width: 340px) {
+
+  .menu-iphone {
+    bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 313px) {
+
+  #avatar {
+    width: 20vw;
+    height: 20vw;
+  }
+
+}
+
+@media screen and (max-width: 363px) {
+
+  .skill-list span {
+    font-size: 10px;
+  }
+
+}

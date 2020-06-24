@@ -337,6 +337,21 @@
   }
 }
 
+@media screen and (max-width: 736px) and (min-width: 512px) {
+  #avatar {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+@media screen and (max-width: 511px) and (min-width: 434px) {
+  .menu-iphone {
+    bottom: -20px;
+  }
+
+}
+
+
 @media screen and (max-width: 736px) and (max-height: 500px) and (min-height: 381px) {
 
   .menu-iphone {

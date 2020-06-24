@@ -143,3 +143,24 @@
   }
 }
 
+@media screen and (max-width: 937px) and (min-width: 737px) {
+
+  .menu a {
+    font-size: 1.3vw;
+    transform: scale(1, 1.5);
+    -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+    -moz-transform: scale(1, 1.5); /* Firefox */
+    -ms-transform: scale(1, 1.5); /* IE 9+ */
+    -o-transform: scale(1, 1.5); /* Opera */
+  }
+
+  .menu-under a {
+    font-size: 1.3vw;
+    transform: scale(1, 1.5);
+    -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+    -moz-transform: scale(1, 1.5); /* Firefox */
+    -ms-transform: scale(1, 1.5); /* IE 9+ */
+    -o-transform: scale(1, 1.5); /* Opera */
+  }
+
+}

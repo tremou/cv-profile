@@ -33,10 +33,10 @@
 }
 
 .skill-list span {
-  padding: 5px 13px 5px 15px;
+  padding: 5px 11px 5px 13px;
   border: solid #286fac 1px;
   border-radius: 50px;
-  font-size: 18px;
+  /* font-size: 18px;*/
   font-weight: 500;
   margin-right: 0.5vw;
   line-height: 5vw;

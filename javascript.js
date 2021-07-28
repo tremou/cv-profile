@@ -44,11 +44,9 @@ const optionsPhone = {
 const callbackPhone = (entriesPhone, observerPhone) => {
   entriesPhone.forEach(entry => {
     if (entry.isIntersecting === false) {
-      console.log(entriesPhone);
       navbarIphone.classList.remove("menu-iphone-under");
       navbarIphone.classList.add('menu-iphone-under-after');
     } else {
-      console.log(entriesPhone);
       navbarIphone.classList.remove("menu-iphone-under-after");
       navbarIphone.classList.add("menu-iphone-under");
     }
